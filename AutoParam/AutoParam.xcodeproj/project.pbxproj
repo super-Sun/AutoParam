@@ -15,8 +15,8 @@
 		0D59DA991D2CF01600FAE573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D59DA971D2CF01600FAE573 /* LaunchScreen.storyboard */; };
 		0D59DAA41D2CF01700FAE573 /* AutoParamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D59DAA31D2CF01700FAE573 /* AutoParamTests.m */; };
 		0D59DAAF1D2CF01700FAE573 /* AutoParamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D59DAAE1D2CF01700FAE573 /* AutoParamUITests.m */; };
-		0D59DABE1D2CF05F00FAE573 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D59DABD1D2CF05F00FAE573 /* NSObject+Property.m */; };
 		0D59DAC01D2CF09600FAE573 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D59DABF1D2CF09600FAE573 /* friends.plist */; };
+		0D59DAC81D2CF97200FAE573 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D59DAC71D2CF97200FAE573 /* NSObject+Property.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		0D59DAAA1D2CF01700FAE573 /* AutoParamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoParamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D59DAAE1D2CF01700FAE573 /* AutoParamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoParamUITests.m; sourceTree = "<group>"; };
 		0D59DAB01D2CF01700FAE573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D59DABC1D2CF05F00FAE573 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
-		0D59DABD1D2CF05F00FAE573 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		0D59DABF1D2CF09600FAE573 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		0D59DAC61D2CF97200FAE573 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		0D59DAC71D2CF97200FAE573 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +106,8 @@
 		0D59DA881D2CF01600FAE573 /* AutoParam */ = {
 			isa = PBXGroup;
 			children = (
+				0D59DAC51D2CF97200FAE573 /* AutoParam */,
 				0D59DABF1D2CF09600FAE573 /* friends.plist */,
-				0D59DABC1D2CF05F00FAE573 /* NSObject+Property.h */,
-				0D59DABD1D2CF05F00FAE573 /* NSObject+Property.m */,
 				0D59DA8C1D2CF01600FAE573 /* AppDelegate.h */,
 				0D59DA8D1D2CF01600FAE573 /* AppDelegate.m */,
 				0D59DA8F1D2CF01600FAE573 /* ViewController.h */,
@@ -146,6 +145,15 @@
 				0D59DAB01D2CF01700FAE573 /* Info.plist */,
 			);
 			path = AutoParamUITests;
+			sourceTree = "<group>";
+		};
+		0D59DAC51D2CF97200FAE573 /* AutoParam */ = {
+			isa = PBXGroup;
+			children = (
+				0D59DAC61D2CF97200FAE573 /* NSObject+Property.h */,
+				0D59DAC71D2CF97200FAE573 /* NSObject+Property.m */,
+			);
+			path = AutoParam;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +289,7 @@
 			files = (
 				0D59DA911D2CF01600FAE573 /* ViewController.m in Sources */,
 				0D59DA8E1D2CF01600FAE573 /* AppDelegate.m in Sources */,
-				0D59DABE1D2CF05F00FAE573 /* NSObject+Property.m in Sources */,
+				0D59DAC81D2CF97200FAE573 /* NSObject+Property.m in Sources */,
 				0D59DA8B1D2CF01600FAE573 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
