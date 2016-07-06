@@ -21,3 +21,5 @@
     @property (nonatomic, copy) NSString *name;
 
     @property (nonatomic, assign) BOOL isVIP;
+    
+    4.将控制台 输出内容 拷贝到对应 模型文件。
