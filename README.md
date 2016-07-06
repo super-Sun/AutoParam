@@ -4,10 +4,11 @@
 
 #使用方法
 //通过传入字典，在控制台输出属性定义过程
-    [NSObject createPropertyCodeWithDict:self.modelDict];
+    1.  导入头文件 #import "NSObject+Property.h"
     
+    2.  直接调用：[NSObject createPropertyCodeWithDict:YourDict];
     
-    控制台输出：
+    3.控制台输出：
     2015-07-06 16:06:38.724 AutoParam[2290:60710] 
     字典中属性转代码：
     
