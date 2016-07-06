@@ -3,7 +3,8 @@
 根据实际开发中花费大量时间做枯燥乏味且无技术含量的属性定义过程，实在不忍，因此试着用runtime写了一个demo，一行代码解决过去困扰。
 
 #使用方法
-//通过传入字典，在控制台输出属性定义过程
+//通过传入字典，在控制台输出属性定义过程.
+
     1.  导入头文件 #import "NSObject+Property.h"
     
     2.  直接调用：[NSObject createPropertyCodeWithDict:YourDict];
