@@ -5,7 +5,7 @@
 #使用方法
 //通过传入字典，在控制台输出属性定义过程.
 
-    1.  导入头文件 #import "NSObject+Property.h"
+    1.  将NSObject+Property.h、NSObject+Property.m，拷贝到项目中，导入头文件 #import "NSObject+Property.h"
     
     2.  直接调用：[NSObject createPropertyCodeWithDict:YourDict];
     
