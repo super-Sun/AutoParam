@@ -25,7 +25,7 @@
         
         if ([obj isKindOfClass:NSClassFromString(@"__NSCFArray")]) {
             code = [NSString stringWithFormat:@"@property (nonatomic, strong) NSArray *%@", proprtyName];
-        }else if ([obj isKindOfClass:NSClassFromString(@"__NSCFString")]) {
+        }else if ([obj isKindOfClass:NSClassFromString(@"__NSCFString")] || [obj isKindOfClass:NSClassFromString(@"NSTaggedPointerString")]) {
             code = [NSString stringWithFormat:@"@property (nonatomic, copy) NSString *%@", proprtyName];
         }else if ([obj isKindOfClass:NSClassFromString(@"__NSCFNumber")]) {
             code = [NSString stringWithFormat:@"@property (nonatomic, assign) int %@", proprtyName];
@@ -39,7 +39,7 @@
 
     }];
     
-    NSLog(@"%@",muStr);
+    NSLog(@"%@\n---------------------------------------------\n",muStr);
     
     return nil;
 }
