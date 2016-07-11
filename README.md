@@ -24,3 +24,5 @@
     @property (nonatomic, assign) BOOL isVIP;
     
     4.将控制台 输出内容 拷贝到对应 模型文件。
+#效果演示  
+    ![image](https://github.com/super-Sun/AutoParam/blob/master/gif/param.gif)
