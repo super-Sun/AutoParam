@@ -40,9 +40,10 @@
     
     //通过传入字典，在控制台输出属性定义过程
     [NSObject createPropertyCodeWithDict:self.modelDict];
+    
     //数组内部属性解析
-    NSArray *modelArray = self.modelDict[@"friends"];
-    [NSObject createPropertyCodeWithDict:modelArray[0]];
+//    NSArray *modelArray = self.modelDict[@"friends"];
+//    [NSObject createPropertyCodeWithDict:modelArray[0]];
 
     
 }
