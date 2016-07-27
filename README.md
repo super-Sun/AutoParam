@@ -10,7 +10,7 @@
     2.  直接调用：[NSObject createPropertyCodeWithDict:YourDict];
     
     3.控制台输出：
-    2015-07-06 16:06:38.724 AutoParam[2290:60710] 
+    2016-07-06 16:06:38.724 AutoParam[2290:60710] 
     字典中属性转代码：
     
     @property (nonatomic, strong) NSDictionary *friend;
